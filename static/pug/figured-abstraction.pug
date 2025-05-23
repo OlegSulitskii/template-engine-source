@@ -2,15 +2,7 @@ extends layout/layout
 block content
 	.content
 		main.book-page
-			section.breadcrumbs
-				.container
-					ul.breadcrumbs__list
-						li.breadcrumbs__item
-							a.breadcrumbs__link(href="index.html") Главная страница
-						li.breadcrumbs__item
-							a.breadcrumbs__link.breadcrumbs__link--slash(href="catalog.html") Каталог книг
-						li.breadcrumbs__item
-							span.breadcrumbs__text Фигурная абстракция
+			include modules/breadcrumbs
 			include modules/book/book
-			include modules/book/reviews/reviews
+			include modules/reviews/reviews-book
 			include modules/recently-viewed/recently-viewed
