@@ -11,7 +11,7 @@ html(lang='ru-RU')
 			header.header
 				.container
 					.header__wrapper
-						a.header__logo-link
+						a.header__logo-link(href="index.html")
 							span.visually-hidden Логотип сайта "По полочкам"
 							<svg class="header__logo" width="230" height="35" viewBox="0 0 230 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M0 0.612722H21.2467V3.21678H17.9631V14.5521H21.2467V17.1945H12.6321V14.5521H14.6409V3.21678H6.6058V14.5521H8.61458V17.1945H0V14.5521H3.28358V3.21678H0V0.612722Z" fill="#37393E" />
@@ -175,7 +175,7 @@ html(lang='ru-RU')
 														</svg>
 														span.books__star 4.2
 													.books__wrapper
-														a.books__link(href="figured-abstraction.html") Подробнее
+														a.books__link(href="#") Подробнее
 														span.books__pages 336 страниц
 										li.books__item
 											.books__inner
@@ -190,7 +190,7 @@ html(lang='ru-RU')
 														</svg>
 														span.books__star 4.5
 													.books__wrapper
-														a.books__link(href="figured-abstraction.html") Подробнее
+														a.books__link(href="#") Подробнее
 														span.books__pages 448 страниц
 										li.books__item
 											.books__inner
@@ -205,7 +205,7 @@ html(lang='ru-RU')
 														</svg>
 														span.books__star 3.9
 													.books__wrapper
-														a.books__link(href="figured-abstraction.html") Подробнее
+														a.books__link(href="#") Подробнее
 														span.books__pages 320 страниц
 										li.books__item
 											.books__inner
@@ -220,7 +220,7 @@ html(lang='ru-RU')
 														</svg>
 														span.books__star 3.5
 													.books__wrapper
-														a.books__link(href="figured-abstraction.html") Подробнее
+														a.books__link(href="#") Подробнее
 														span.books__pages 784 страниц
 										li.books__item
 											.books__inner
@@ -235,7 +235,7 @@ html(lang='ru-RU')
 														</svg>
 														span.books__star 4.4
 													.books__wrapper
-														a.books__link(href="figured-abstraction.html") Подробнее
+														a.books__link(href="#") Подробнее
 														span.books__pages 384 страниц
 										li.books__item
 											.books__inner
@@ -250,7 +250,7 @@ html(lang='ru-RU')
 														</svg>
 														span.books__star 3.9
 													.books__wrapper
-														a.books__link(href="figured-abstraction.html") Подробнее
+														a.books__link(href="#") Подробнее
 														span.books__pages 576 страниц
 										li.books__item
 											.books__inner
@@ -265,7 +265,7 @@ html(lang='ru-RU')
 														</svg>
 														span.books__star 4.1
 													.books__wrapper
-														a.books__link(href="figured-abstraction.html") Подробнее
+														a.books__link(href="#") Подробнее
 														span.books__pages 448 страниц
 							.catalog__pagination.pagination
 								ul.pagination__list
@@ -283,12 +283,11 @@ html(lang='ru-RU')
 											<svg width="14" height="10" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
 											<path d="M8.46967 1.53033C8.17678 1.23744 8.17678 0.762563 8.46967 0.46967C8.76256 0.176777 9.23744 0.176777 9.53033 0.46967L13.5303 4.46967C13.8232 4.76256 13.8232 5.23744 13.5303 5.53033L9.53033 9.53033C9.23744 9.82322 8.76256 9.82322 8.46967 9.53033C8.17678 9.23744 8.17678 8.76256 8.46967 8.46967L11.1893 5.75H1.5C1.08579 5.75 0.75 5.41421 0.75 5C0.75 4.58579 1.08579 4.25 1.5 4.25H11.1893L8.46967 1.53033Z" />
 											</svg>
-
 			footer.footer
 				.container
 					.footer__wrapper
 						.footer__col
-							a.footer__logo-link
+							a.footer__logo-link(href="index.html")
 								span.visually-hidden Логотип сайта "По полочкам"
 								<svg class="footer__logo" width="230" height="35" viewBox="0 0 230 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M0 0.612722H21.2467V3.21678H17.9631V14.5521H21.2467V17.1945H12.6321V14.5521H14.6409V3.21678H6.6058V14.5521H8.61458V17.1945H0V14.5521H3.28358V3.21678H0V0.612722Z" fill="white" />
@@ -338,9 +337,9 @@ html(lang='ru-RU')
 									h4.footer-nav__title Меню
 									ul.footer-nav__sub-list
 										li.footer-nav__sub-item
-											a.footer-nav__link Главная
+											a.footer-nav__link(href="index.html") Главная
 										li.footer-nav__sub-item
-											a.footer-nav__link(href="catalog.html") Каталог книг
+											a.footer-nav__link Каталог книг
 										li.footer-nav__sub-item
 											a.footer-nav__link(href="#") Оплата и доставка
 										li.footer-nav__sub-item
