@@ -1,10 +1,12 @@
+- var pathContentImg = 'static/images/content/'
+
 section.new-books
 	.container
 		h2.new-books__title.section__title Новинки
 		ul.books
 			li.books__item
 				.books__inner
-					img.books__img(src="static/images/content/a-life-of-pleasure.jpg" alt="Фото книги - &quot;Белый воротник&quot;" width="275" height="320")
+					img.books__img(src=`${pathContentImg}a-life-of-pleasure.jpg` alt="Фото книги - &quot;Белый воротник&quot;" width="275" height="320")
 					.books__box
 						p.books__author Фёрт А.
 						h3.books__name Белый воротник
@@ -19,7 +21,7 @@ section.new-books
 							span.books__pages 208 страниц
 			li.books__item
 				.books__inner
-					img.books__img(src="static/images/content/book-kingdoms.jpg" alt="Фото книги - &quot;Апельсиновый закат&quot;" width="275" height="320")
+					img.books__img(src=`${pathContentImg}book-kingdoms.jpg` alt="Фото книги - &quot;Апельсиновый закат&quot;" width="275" height="320")
 					.books__box
 						p.books__author Рид Ч.
 						h3.books__name Апельсиновый закат
@@ -34,7 +36,7 @@ section.new-books
 							span.books__pages 576 страниц
 			li.books__item
 				.books__inner
-					img.books__img(src="static/images/content/book-transhumanism.jpg" alt="Фото книги - &quot;Море желаний&quot;" width="275" height="320")
+					img.books__img(src=`${pathContentImg}book-transhumanism.jpg` alt="Фото книги - &quot;Море желаний&quot;" width="275" height="320")
 					.books__box
 						p.books__author Беляев И.
 						h3.books__name Море желаний
@@ -49,7 +51,7 @@ section.new-books
 							span.books__pages 608 страниц
 			li.books__item
 				.books__inner
-					img.books__img(src="static/images/content/book-feelings-of-shame.jpg" alt="Фото книги - &quot;Веточка смородины&quot;" width="275" height="320")
+					img.books__img(src=`${pathContentImg}book-feelings-of-shame.jpg` alt="Фото книги - &quot;Веточка смородины&quot;" width="275" height="320")
 					.books__box
 						p.books__author Маунт П.
 						h3.books__name Веточка смородины

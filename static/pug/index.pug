@@ -1,7 +1,12 @@
 extends layout/layout
+
+block variables
+	- var title = "Главная страница"
+	- var pageClass = "index-page"
+
 block content
 	.content
-		main.index-page
+		main(class=pageClass)
 			h1.visually-hidden Магазин по продаже книг "По полочкам"
 			include modules/hero
 			include modules/new-books/new-books

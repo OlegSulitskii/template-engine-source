@@ -1,6 +1,11 @@
 extends layout/layout
+
+block variables
+	- var title = "Каталог книг"
+	- var pageClass = "catalog-page"
+
 block content
 	.content
-		main.catalog-page
+		main(class=pageClass)
 			include modules/breadcrumbs
 			include modules/catalog/catalog
