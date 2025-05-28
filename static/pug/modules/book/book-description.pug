@@ -1,34 +1,36 @@
+include book-data
+
 .book__description
 	.book__information
 		h2.book__heading Информация
 		ul.book__info-list
 			li.book__info-item
-				span.book__term Код товара
-				span.book__def 123187432
+				span.book__term= book.info[0].term
+				span.book__def= book.info[0].def
 			li.book__info-item
-				span.book__term Издательство
-				span.book__def Арт-презент
+				span.book__term= book.info[1].term
+				span.book__def= book.info[1].def
 			li.book__info-item
-				span.book__term Серия
-				span.book__def Искусство
+				span.book__term= book.info[2].term
+				span.book__def= book.info[2].def
 			li.book__info-item
-				span.book__term Год издания
-				span.book__def 2021
+				span.book__term= book.info[3].term
+				span.book__def= book.info[3].def
 			li.book__info-item
-				span.book__term Переводчик
-				span.book__def Панов А.
+				span.book__term= book.info[4].term
+				span.book__def= book.info[4].def
 			li.book__info-item
-				span.book__term Кол-во страниц
-				span.book__def 416
+				span.book__term= book.info[5].term
+				span.book__def= book.info[5].def
 			li.book__info-item
-				span.book__term Тип обложки
-				span.book__def Твердая
+				span.book__term= book.info[6].term
+				span.book__def= book.info[6].def
 			li.book__info-item
-				span.book__term Вес, г
-				span.book__def 370
+				span.book__term= book.info[7].term
+				span.book__def= book.info[7].def
 			li.book__info-item
-				span.book__term Возрастные ограничения
-				span.book__def 12+
+				span.book__term= book.info[8].term
+				span.book__def= book.info[8].def
 	.book__annotation
 		h2.book__heading Аннотация
-		p.book__text «‎Фигурная абстракция» — это исследование визуальной эстетики и творческого процесса захватывающего мира фигурной абстракции. Автор, опытный дизайнер и художник, рассматривает использование абстрактных форм и линий в различных видах искусства и дизайна. Книга освещает важность формы и линии в дизайне и искусстве, а также рассматривает влияние фигурной абстракции на современный мир. Она содержит множество примеров работ, которые демонстрируют, как абстрактные формы могут быть использованы для создания мощных визуальных образов и коммуникации идей.
+		p.book__text= book.annotation
